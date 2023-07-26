@@ -115,9 +115,7 @@
                                                        for="nameUpdate">First name</label>
                                                 <input class="form-control d-flex justify-content-center" type="text"
                                                        th:name="firstName" th:value="${user.getFirstName()}"
-                                                       id="nameUpdate"
-                                                       pattern=".{2,30}" required
-                                                       title="First name должно содержать от 2 до 30 символов">
+                                                       id="nameUpdate">
                                             </div>
 
                                             <div class="row mb-2">
@@ -125,8 +123,7 @@
                                                        for="lastnameUpdate">Last name</label>
                                                 <input class="form-control d-flex justify-content-center" type="text"
                                                        th:name="lastName" th:value="${user.getLastName()}"
-                                                       id="lastnameUpdate" pattern=".{2,30}" required
-                                                       title="Last name должно содержать от 2 до 30 символов">
+                                                       id="lastnameUpdate">
                                             </div>
 
                                             <div class="row mb-2">
