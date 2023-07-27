@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.stereotype.Controller;
 
 @Controller
-public class LoginController implements Controllers{
+public class LoginController {
 
     @GetMapping("/login")
     public String showLoginForm() {
